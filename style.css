@@ -1,0 +1,58 @@
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+body {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+#fut23 { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+/*	font-family: 'Akronim'; */
+	font-size: 1.2em;	
+	color: red;
+	background-color: black;
+	line-height: 48px;
+}
+
+h2 {
+/*	font-family: 'Akronim'; */
+	font-size: 1em;
+	color: yellow;
+	background-color: black;
+        line-height: 24px;
+}
+
+h3 {
+/*	font-family: 'Akronim'; */
+	font-size: 0.8em;
+	color: whitesmoke;
+}
+
+a {
+	color: red;
+}
+
+#page {
+	text-align: center;
+}
+
+#player {
+/*	background-image: url('fut-radio-speaker.jpg'); 
+	background-repeat:no-repeat;
+	background-position:center; */
+	height: 440px; 
+}
